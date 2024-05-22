@@ -319,7 +319,7 @@ FREE=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master
 
 [Plugin]
 #跳过部分应用代理检测
-#https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule, tag=跳过部分应用代理检测, enabled = true
+https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule, tag=跳过部分应用代理检测, enabled = true
 
 # 基础
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.plugin, policy = B1gProxy, tag = BoxJS, enabled = true
