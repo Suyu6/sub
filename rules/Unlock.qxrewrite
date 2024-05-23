@@ -21,8 +21,8 @@ hostname = aiqicha.baidu.com, appwk.baidu.com, pan.baidu.com, api.calm.com, www.
 # ======= C ====== #
 # > Clam 解锁：VIP //api.calm.com, www.calm.com
 # > 仓库地址 https://github.com/langkhach270389
-#^https?:\/\/api\.calm\.com\/me$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/calm.js
-#^https?:\/\/www\.calm\.com\/mobile\/manage-subscription\?token=*  url reject-img
+# ^https?:\/\/api\.calm\.com\/me$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/calm.js
+# ^https?:\/\/www\.calm\.com\/mobile\/manage-subscription\?token=*  url reject-img
 
 # > 财新会员 //gateway.caixin.com
 # > 解锁：财新文章阅读与音频限制
