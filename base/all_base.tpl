@@ -424,7 +424,6 @@ ca-p12 = MIIJKQIBAzCCCO8GCSqGSIb3DQEHAaCCCOAEggjcMIII2DCCA48GCSqGSIb3DQEHBqCCA4A
 skip-server-cert-verify = false
 {% endif %}
 
-
 {% if request.target == "quan" %}
 
 [SERVER]
