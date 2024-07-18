@@ -223,8 +223,8 @@ bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/
   {% if request.who == "self" %}
 ssid-trigger = "Cccccc":PROXY,"Cccccc_5G":PROXY,"cellular":RULE,"default":RULE
   {% else %}
-    {% if request.who == "lulu" %}
-ssid-trigger = "Society-5G":DIRECT,"Society":DIRECT,"cellular":RULE,"default":RULE
+    {% if request.who == "Suyu" %}
+ssid-trigger = "LEI":DIRECT,"LLS1118":DIRECT,"cellular":RULE,"default":RULE
     {% else %}
 ssid-trigger = "INFINITY-WORLD":DIRECT,"nana":DIRECT,"cellular":RULE,"default":RULE
     {% endif %}
