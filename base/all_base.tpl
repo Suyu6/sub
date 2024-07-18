@@ -224,7 +224,7 @@ bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/
 ssid-trigger = "Cccccc":PROXY,"Cccccc_5G":PROXY,"cellular":RULE,"default":RULE
   {% else %}
     {% if request.who == "Suyu" %}
-ssid-trigger = "LEI":DIRECT,"LLS1118":DIRECT,"cellular":RULE,"default":RULE
+ssid-trigger = "LEI":PROXY,"LLS1118":PROXY,"cellular":RULE,"default":RULE
     {% else %}
 ssid-trigger = "INFINITY-WORLD":DIRECT,"nana":DIRECT,"cellular":RULE,"default":RULE
     {% endif %}
