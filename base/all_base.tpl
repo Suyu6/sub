@@ -477,8 +477,8 @@ geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubuserc
   {% if request.who == "self" %}
 running_mode_trigger=filter, filter, Cccccc:all_proxy, zxcvawer:all_proxy, Cccccc_5G:all_proxy
   {% else %}
-    {% if request.who == "lulu" %}
-running_mode_trigger=filter, filter, Society-5G:all_direct, Society:all_direct
+    {% if request.who == "Suyu" %}
+running_mode_trigger=filter, filter, LEI:all_proxy
     {% else %}
 running_mode_trigger=filter, filter, INFINITY-WORLD:all_direct, nana:all_direct
     {% endif %}
