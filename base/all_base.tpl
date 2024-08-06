@@ -188,13 +188,9 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 # IPV6 启动与否
 ipv6 = false
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
-dns-server = 119.29.29.29, 223.5.5.5
+dns-server = system, 119.29.29.29, 223.5.5.5
 # DNS over HTTPS服务器，用,隔开多个服务器
 # doh-server = https://223.5.5.5/resolve, https://sm2.doh.pub/dns-query
-# 禁用 stun 是否禁用 stun 协议的 udp 数据，禁用后可以有效解决 webrtc 的 ip 泄露
-sni-sniffing = true
-# 禁用 stun 是否禁用 stun 协议的 udp 数据，禁用后可以有效解决 webrtc 的 ip 泄露
-disable-stun = false
 # 当 UDP 的流量规则匹配到相关节点，但该节点不支持 UDP 或未未开启 UDP 转发时使用的策略，可选 DIRECT、REJECT
 udp-fallback-mode = DIRECT
 # 域名拒绝规则执行的阶段
@@ -213,9 +209,9 @@ proxy-test-url = http://cp.cloudflare.com/generate_204
 test-timeout = 2
 # 指定流量使用哪个网络接口进行转发
 interface-mode = auto
-sni-sniffing = true
 # 禁用 stun 是否禁用 stun 协议的 udp 数据，禁用后可以有效解决 webrtc 的 ip 泄露
-disable-stun = true
+sni-sniffing = true
+disable-stun = false
 # 策略改变时候打断连接
 disconnect-on-policy-change = true
 # 一个节点连接失败几次后会进行节点切换，默认 3 次
@@ -390,10 +386,9 @@ https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/QQMusic_remov
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/RedPaper_remove_ads.plugin, tag=「小红书」去广告, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/smzdm_remove_ads.plugin, tag=「什么值得买」去广告, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/Tieba_remove_ads.plugin, tag=「百度贴吧」去广告, enabled = true
-http://script.hub/file/_start_/https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/reddit/reddit.ad.sgmodule/_end_/reddit.plugin?type=surge-module&target=loon-plugin, tag=「红迪」去广告, enabled = false
+https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/Reddit_remove_ads.plugin, tag=「红迪」去广告, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/TubeMax_remove_ads.plugin, policy = B1gProxy, tag=「TubeMax」去广告, enabled = false
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/Weibo_remove_ads.plugin, tag=「微博国内版」去广告, enabled = true
-http://script.hub/file/_start_/https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Weibo.conf/_end_/WeiBoWorldWide.plugin?type=qx-rewrite&target=loon-plugin, tag=「微博国际版」去广告, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/Weixin_Official_Accounts_remove_ads.plugin, tag=「微信公众号」去广告, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/WexinMiniPrograms_Remove_ads.plugin, tag=「部分微信小程序」去广告, enabled = true
 https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/Snowball_remove_ads.plugin, tag=「雪球」去广告, enabled = true
@@ -619,8 +614,7 @@ https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/kuwo.snippet, t
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.qxrewrite, tag=「什么值得买」去广告, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Applet.conf, tag=「微信某些小程序」去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/WeChat.conf, tag=「微信公众号」去广告, update-interval=172800, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Weibo.conf, tag=「微博国际版」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/weibo.snippet, tag=「微博国内版」去广告, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/weibo.snippet, tag=「微博」去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/xiaohongshu.snippet, tag=「小红书」去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Ximalaya.conf, tag=「喜马拉雅」去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/youtube.snippet, tag=「油管」去广告, update-interval=172800, opt-parser=false, enabled=true
