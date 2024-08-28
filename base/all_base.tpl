@@ -114,8 +114,15 @@ dns:
     - '+.primordial.gay'
     ## pokerstars
     - '+.ps.im'
-    ## verykuai
+    ## 加速器
     - '+.verykuai.com'
+    - '+.nn.com'
+    - '+.leigod.com'
+    - '+.xunyou.com'
+    ## pubg
+    - '+.pubg.com'
+    - 'pubg1.battleye.com'
+
   nameserver-policy:
     'raw.githubusercontent.com': '8.8.8.8'
     '+.meiquankongjian.com': '8.8.8.8'
@@ -184,7 +191,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-#!date = 2024-8-6 21:48:51
+#!date = 2024-8-28 08:44:40
 # IPV6 启动与否
 ipv6 = false
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
@@ -482,7 +489,7 @@ Request: who (self, lulu, tira, xty, biu, leo, none)
 #}
 {% if request.target == "quanx" %}
 [general]
-#!date = 2024-4-6 05:46:36
+#!date = 2024-8-28 08:45:40
 network_check_url=http://www.baidu.com
 server_check_url=http://connectivitycheck.gstatic.com
 excluded_routes=192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
