@@ -239,6 +239,9 @@ ssid-trigger = "Cccccc":PROXY,"Cccccc_5G":PROXY,"cellular":RULE,"default":RULE
     {% if request.who == "Suyu" %}
 ssid-trigger = "LEI":PROXY,"cellular":RULE,"default":RULE
     {% else %}
+    {% if request.who == "HM" %}
+ssid-trigger = "黑猫":PROXY,"黑猫_5G":PROXY,"黑猫_5G_Game":PROXY,"cellular":RULE,"default":RULE
+    {% else %}
 ssid-trigger = "INFINITY-WORLD":DIRECT,"nana":DIRECT,"cellular":RULE,"default":RULE
     {% endif %}
   {% endif %}
