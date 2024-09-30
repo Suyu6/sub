@@ -243,6 +243,7 @@ ssid-trigger = "LEI":PROXY,"cellular":RULE,"default":RULE
 ssid-trigger = "黑猫":PROXY,"黑猫_5G":PROXY,"黑猫_5G_Game":PROXY,"cellular":RULE,"default":RULE
     {% else %}
 ssid-trigger = "INFINITY-WORLD":DIRECT,"nana":DIRECT,"cellular":RULE,"default":RULE
+     {% endif %}
     {% endif %}
   {% endif %}
 {% endif %}
