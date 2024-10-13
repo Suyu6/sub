@@ -761,11 +761,6 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 # 打开https://yuba.douyu.com/homepage/hotwbs并登陆，打开获取cookie，刷新页面，提示获取鱼吧关注列表成功
 11 8 * * * https://raw.githubusercontent.com/lowking/Scripts/master/douyu/yubaSign.js, tag=斗鱼鱼吧签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/douyu.png, enabled=true
 
-# 夸克网盘签到  (By @Sliverkiss)
-# 青龙：抓https://drive-m.quark.cn/1/clouddrive/capacity/growth/sign接口的kps、sign、vcode，用#连接，填写到quark_data，多账号用@分割
-# Surge、QuantumultX、Loon、Shadowrocket：1.将获取ck脚本拉取到本地 2.打开网盘，手动点击一次签到，若提示获取ck成功则可以使用改脚本 3.关闭获取ck脚本，防止出现不必要的mitm。ps：若以上获取ck操作失败，可以参照青龙的使用方法手动将参数填入boxjs
-12 8 * * * https://gist.githubusercontent.com/Sliverkiss/2694a665b4e52d8788c18394201ff3eb/raw/quarkcloud.js, tag=夸克网盘签到, enabled=true
-
 # 阿里云任务  (By @Sliverkiss)
 # 单账号&&多账号：1.将获取ck脚本拉取到本地 2.打开阿里云盘，若提示获取ck成功，则可以使用该脚本 3.获取成功后，关闭获取ck脚本，避免产生不必要的mitm
 0 7,11,17 * * * https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, tag=阿里云签到, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png, enabled=true
