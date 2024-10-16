@@ -499,7 +499,7 @@ Request: who (self, lulu, tira, xty, biu, leo, none)
 #}
 {% if request.target == "quanx" %}
 [general]
-#!date = 2024-8-28 08:45:40
+#!date = 2024-10-16 21:41:33
 network_check_url=http://www.baidu.com
 server_check_url=http://connectivitycheck.gstatic.com
 excluded_routes=192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
