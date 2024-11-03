@@ -237,15 +237,11 @@ bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/
   {% if request.who == "self" %}
 ssid-trigger = "Cccccc":PROXY,"Cccccc_5G":PROXY,"cellular":RULE,"default":RULE
   {% else %}
-    {% if request.who == "Suyu" %}
+   {% if request.who == "Suyu" %}
 ssid-trigger = "LEI":PROXY,"cellular":RULE,"default":RULE
-    {% else %}
-    {% if request.who == "HM" %}
-ssid-trigger = "黑猫":PROXY,"黑猫_5G":PROXY,"黑猫_5G_Game":PROXY,"cellular":RULE,"default":RULE
-    {% else %}
+   {% else %}
 ssid-trigger = "INFINITY-WORLD":DIRECT,"nana":DIRECT,"cellular":RULE,"default":RULE
-     {% endif %}
-    {% endif %}
+   {% endif %}
   {% endif %}
 {% endif %}
 
