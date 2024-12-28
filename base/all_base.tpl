@@ -191,7 +191,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-#!date = 2024-10-28
+#!date = 2024-12-29
 # IPV6 启动与否
 ipv6 = false
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
@@ -225,7 +225,7 @@ disconnect-on-policy-change = true
 # 一个节点连接失败几次后会进行节点切换，默认 3 次
 switch-node-after-failure-times = 3
 # 订阅资源解析器链接
-resource-parser = https://loon.126996.xyz/Resource/Script/Sub-Store/sub-store-parser_for_loon.js
+resource-parser = https://kelee.one/Resource/Script/Sub-Store/sub-store-parser_for_loon.js
 # 自定义 geoip 数据库的 url
 geoip-url = https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.mmdb
 # 配置了该参数，那么所配置的这些IP段、域名将不会转发到Loon，而是由系统处理
@@ -342,73 +342,78 @@ http://script.hub/file/_start_/https://raw.githubusercontent.com/yqc007/Quantumu
 https://raw.githubusercontent.com/Keywos/rule/main/loon/TikTok.plugin, policy = GlobalMedia, tag=「TikTok」解锁区域, enabled = true
 https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin, tag=「Spotify」解锁, enabled = true
 # 功能增强
-https://raw.githubusercontent.com/BiliUniverse/Enhanced/main/modules/BiliBili.Enhanced.plugin, tag=自定义「哔哩哔哩粉白」主界面, enabled = true
-https://raw.githubusercontent.com/BiliUniverse/Global/main/modules/BiliBili.Global.plugin, tag=自动化「哔哩哔哩粉白」线路及全区搜索, enabled = true
-https://github.com/DualSubs/Universal/releases/latest/download/Universal.plugin, tag=「流媒体平台」字幕增强及双语模块, enabled = true
-https://github.com/DualSubs/YouTube/releases/latest/download/YouTube.plugin, tag=「YouTube」字幕增强及双语模块, enabled = true
-https://github.com/DualSubs/Spotify/releases/latest/download/Spotify.plugin, tag=「Spotify」歌词增强及双语模块, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/Google.plugin, tag=「Google」重定向, enabled = false
+https://github.com/BiliUniverse/Enhanced/releases/latest/download/BiliBili.Enhanced.plugin, tag=自定义「哔哩哔哩粉白」主界面, enabled = true
+https://github.com/BiliUniverse/Global/releases/latest/download/BiliBili.Global.plugin, tag=自动化「哔哩哔哩粉白」线路及全区搜索, enabled = true
+https://github.com/BiliUniverse/Redirect/releases/latest/download/BiliBili.Redirect.plugin, tag=重定向「哔哩哔哩」线路, enabled = true
+https://github.com/DualSubs/Universal/releases/latest/download/DualSubs.Universal.plugin, tag=「流媒体平台」字幕增强及双语模块, enabled = true
+https://github.com/DualSubs/YouTube/releases/latest/download/DualSubs.YouTube.plugin, tag=「YouTube」字幕增强及双语模块, enabled = true
+https://github.com/DualSubs/Spotify/releases/latest/download/DualSubs.Spotify.plugin, tag=「Spotify」歌词增强及双语模块, enabled = true
+https://kelee.one/Tool/Loon/Plugin/Google.plugin, tag=「Google」重定向, enabled = false
 https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/plugin/HTTPDNS.Block.plugin, tag=「HTTPDNS」禁止, enabled = false
-https://loon.126996.xyz/Tool/Loon/Plugin/LoonGallery.plugin, policy = B1gProxy, enabled = false
-https://loon.126996.xyz/Tool/Loon/Plugin/Fileball_mount.plugin, tag=「Fileball」挂载增强, enabled = false
-https://loon.126996.xyz/Tool/Loon/Plugin/JD_Price.plugin, tag=「京东」比价脚本, enabled = true
-https://github.com/NSRingo/WeatherKit/releases/latest/download/WeatherKit.plugin, tag=自定义「天气Kit」功能, enabled = true
+https://kelee.one/Tool/Loon/Plugin/LoonGallery.plugin, policy = B1gProxy, enabled = false
+https://kelee.one/Tool/Loon/Plugin/Fileball_mount.plugin, tag=「Fileball」挂载增强, enabled = false
+https://kelee.one/Tool/Loon/Plugin/JD_Price.plugin, tag=「京东」比价脚本, enabled = true
+https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.plugin, tag=自定义「天气Kit」功能, enabled = true
 https://github.com/NSRingo/Weather/raw/main/modules/Weather.plugin, tag=自定义「天气」功能, enabled = true
-https://github.com/NSRingo/GeoServices/releases/latest/download/Location.plugin, tag=自定义「定位服务」功能, enabled = true
-https://github.com/NSRingo/GeoServices/releases/latest/download/Maps.plugin, tag=自定义「地图」功能, enabled = true
-https://github.com/NSRingo/Siri/releases/latest/download/Siri.plugin, tag=自定义「Siri与搜索」功能, enabled = true
-https://github.com/NSRingo/TV/releases/latest/download/TV.plugin, tag=自定义「AppleTV」功能, enabled = true
-https://github.com/NSRingo/News/releases/latest/download/News.plugin, tag=自定义「AppleNews」功能, enabled = true
-https://github.com/NSRingo/TestFlight/releases/latest/download/TestFlight.plugin, tag=自定义「TestFlight」功能, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/QuickSearch.plugin, tag=「QuickSearch」增强, enabled = false
+https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Location.plugin, tag=自定义「定位服务」功能, enabled = true
+https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Maps.plugin, tag=自定义「地图」功能, enabled = true
+https://github.com/NSRingo/Siri/releases/latest/download/iRingo.Siri.plugin, tag=自定义「Siri与搜索」功能, enabled = true
+https://github.com/NSRingo/TV/releases/latest/download/iRingo.TV.plugin, tag=自定义「AppleTV」功能, enabled = true
+https://github.com/NSRingo/News/releases/latest/download/iRingo.News.plugin, tag=自定义「AppleNews」功能, enabled = true
+https://github.com/NSRingo/TestFlight/releases/latest/download/iRingo.TestFlight.plugin, tag=自定义「TestFlight」功能, enabled = true
+https://kelee.one/Tool/Loon/Plugin/QuickSearch.plugin, tag=「QuickSearch」增强, enabled = false
 https://raw.githubusercontent.com/Keywos/rule/main/loon/ip.plugin, tag=「节点」检测, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/WARP_Node_Query.plugin, tag=「WARP」节点查询, enabled = false
-https://loon.126996.xyz/Tool/Loon/Plugin/Weixin_external_links_unlock.plugin, tag=「微信」外链增强, enabled = true
+https://kelee.one/Tool/Loon/Plugin/WARP_Node_Query.plugin, tag=「WARP」节点查询, enabled = false
+https://kelee.one/Tool/Loon/Plugin/Weixin_external_links_unlock.plugin, tag=「微信」外链增强, enabled = true
 # 去广告合集
 http://script.hub/file/_start_/https://raw.githubusercontent.com/Suyu6/sub/master/rules/Remix.snippet/_end_/Remix.plugin?type=qx-rewrite&target=loon-plugin, tag=「合集1」去广告, enabled = true
 https://raw.githubusercontent.com/RuCu6/Loon/main/Plugins/myblockads.plugin, tag=「合集2」去广告, enabled = true
-http://script.hub/file/_start_/https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/cnftp.snippet/_end_/cnftp.plugin?type=qx-rewrite&target=loon-plugin, tag=「爱奇艺|芒果|腾讯视频|优酷」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/BlockAdvertisers.plugin, tag=「合集3」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/Remove_ads_by_keli.plugin, tag=「合集4」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/GaoDing_remove_ads.plugin, tag=「合集5」去广告, enabled = false
+https://kelee.one/Tool/Loon/Plugin/BlockAdvertisers.plugin, tag=「合集3」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/Remove_ads_by_keli.plugin, tag=「合集4」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/GaoDing_remove_ads.plugin, tag=「合集5」去广告, enabled = false
 # 去广告单独
-https://loon.126996.xyz/Tool/Loon/Plugin/Aiinquiry_remove_ads.plugin, tag=「爱企查」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/Amap_remove_ads.plugin, tag=「高德地图」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/Baidu_input_method_remove_ads.plugin, tag=「百度输入法」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/BaiduNetDisk_remove_ads.plugin, tag=「百度网盘」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/BaiduMap_remove_ads.plugin, tag=「百度地图IPA版」去广告, enabled = false
-https://raw.githubusercontent.com/BiliUniverse/ADBlock/main/modules/BiliBili.ADBlock.plugin, tag=「哔哩哔哩粉白」去广告, enabled = true
-https://raw.githubusercontent.com/RuCu6/Loon/main/Plugins/cainiao.plugin, tag=「菜鸟裹裹」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/DiDi_remove_ads.plugin, tag=「滴滴出行」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/DouBan_remove_ads.plugin, tag=「豆瓣7.76」去广告, enabled = false
-https://loon.126996.xyz/Tool/Loon/Plugin/Douyu_remove_ads.plugin, tag=「斗鱼」去广告, enabled = false
-https://loon.126996.xyz/Tool/Loon/Plugin/Daily_remove_ads.plugin, tag=「剑网3推栏」去广告, enabled = false
-https://loon.126996.xyz/Tool/Loon/Plugin/FenBi_remove_ads.plugin, tag=「粉笔」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/FlyerTea_remove_ads.plugin, tag=「飞客茶馆」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/DragonRead_remove_ads.plugin, tag=「番茄小说」去广告, enabled = false
-https://loon.126996.xyz/Tool/Loon/Plugin/Himalaya_remove_ads.plugin, tag=「喜马拉雅」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/IThome_remove_ads.plugin, tag=「IThome」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/Keep_remove_ads.plugin, tag=「Keep」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/NeteaseCloudMusic_remove_ads.plugin, tag=「网易云音乐」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/TV_Assistant_remove_ads.plugin, tag=「乐播投屏」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/QiDian_remove_ads.plugin, tag=「起点」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/QQMusic_remove_ads.plugin, tag=「QQ音乐」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/RedPaper_remove_ads.plugin, tag=「小红书」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/smzdm_remove_ads.plugin, tag=「什么值得买」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/Tieba_remove_ads.plugin, tag=「百度贴吧」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/Reddit_remove_ads.plugin, tag=「红迪」去广告, enabled = false
-https://loon.126996.xyz/Tool/Loon/Plugin/TubeMax_remove_ads.plugin, policy = B1gProxy, tag=「TubeMax」去广告, enabled = false
-https://loon.126996.xyz/Tool/Loon/Plugin/Weibo_remove_ads.plugin, tag=「微博国内版」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/Weixin_Official_Accounts_remove_ads.plugin, tag=「微信公众号」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/WexinMiniPrograms_Remove_ads.plugin, tag=「部分微信小程序」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/Snowball_remove_ads.plugin, tag=「雪球」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/Soul_remove_ads.plugin, tag=「Soul」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/PinDuoDuo_remove_ads.plugin, tag=「拼多多」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/XiaoHeiHe_remove_ads.plugin, tag=「小黑盒」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/FleaMarket_remove_ads.plugin, tag=「咸鱼」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/YouTube_remove_ads.plugin, tag=「YouTube」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/YY_Voice_remove_ads.plugin, tag=「YY」去广告, enabled = true
-https://loon.126996.xyz/Tool/Loon/Plugin/Zhihu_remove_ads.plugin, tag=「知乎」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/Aiinquiry_remove_ads.plugin, tag=「爱企查」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/Amap_remove_ads.plugin, tag=「高德地图」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/Baidu_input_method_remove_ads.plugin, tag=「百度输入法」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/BaiduNetDisk_remove_ads.plugin, tag=「百度网盘」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/BaiduMap_remove_ads.plugin, tag=「百度地图IPA版」去广告, enabled = false
+https://kelee.one/Tool/Loon/Plugin/Cainiao_remove_ads.plugin, tag=「菜鸟裹裹」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/DiDi_remove_ads.plugin, tag=「滴滴出行」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/DouBan_remove_ads.plugin, tag=「豆瓣7.76」去广告, enabled = false
+https://kelee.one/Tool/Loon/Plugin/Douyu_remove_ads.plugin, tag=「斗鱼」去广告, enabled = false
+https://kelee.one/Tool/Loon/Plugin/Daily_remove_ads.plugin, tag=「剑网3推栏」去广告, enabled = false
+https://kelee.one/Tool/Loon/Plugin/FenBi_remove_ads.plugin, tag=「粉笔」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/FlyerTea_remove_ads.plugin, tag=「飞客茶馆」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/DragonRead_remove_ads.plugin, tag=「番茄小说」去广告, enabled = false
+https://kelee.one/Tool/Loon/Plugin/Himalaya_remove_ads.plugin, tag=「喜马拉雅」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/IThome_remove_ads.plugin, tag=「IThome」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/Keep_remove_ads.plugin, tag=「Keep」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/NeteaseCloudMusic_remove_ads.plugin, tag=「网易云音乐」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/TV_Assistant_remove_ads.plugin, tag=「乐播投屏」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/QiDian_remove_ads.plugin, tag=「起点」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/QQMusic_remove_ads.plugin, tag=「QQ音乐」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/RedPaper_remove_ads.plugin, tag=「小红书」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/smzdm_remove_ads.plugin, tag=「什么值得买」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/Tieba_remove_ads.plugin, tag=「百度贴吧」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/Reddit_remove_ads.plugin, tag=「红迪」去广告, enabled = false
+https://kelee.one/Tool/Loon/Plugin/TubeMax_remove_ads.plugin, policy = B1gProxy, tag=「TubeMax」去广告, enabled = false
+https://kelee.one/Tool/Loon/Plugin/Weibo_remove_ads.plugin, tag=「微博国内版」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/Weixin_Official_Accounts_remove_ads.plugin, tag=「微信公众号」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/WexinMiniPrograms_Remove_ads.plugin, tag=「部分微信小程序」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/Snowball_remove_ads.plugin, tag=「雪球」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/Soul_remove_ads.plugin, tag=「Soul」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/PinDuoDuo_remove_ads.plugin, tag=「拼多多」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/XiaoHeiHe_remove_ads.plugin, tag=「小黑盒」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/FleaMarket_remove_ads.plugin, tag=「咸鱼」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/YouTube_remove_ads.plugin, tag=「YouTube」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/YY_Voice_remove_ads.plugin, tag=「YY」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/Zhihu_remove_ads.plugin, tag=「知乎」去广告, enabled = true
+# 视频网站
+https://github.com/BiliUniverse/ADBlock/releases/latest/download/BiliBili.ADBlock.plugin, tag=「哔哩哔哩粉白」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/iQiYi_Video_remove_ads.plugin, tag=「爱奇艺」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/Tencent_Video_remove_ads.plugin, tag=「腾讯视频」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/Mango_Viedo_remove_ads.plugin, tag=「芒果」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/YouKu_Video_remove_ads.plugin, tag=「优酷」去广告, enabled = true
 # 签到
 http://script.hub/file/_start_/https://raw.githubusercontent.com/Suyu6/sub/master/rules/GetCookie.conf/_end_/GetCookie.plugin?type=qx-rewrite&target=loon-plugin, tag=「合集」签到CK一体化, enabled = true
 # 基础
@@ -597,26 +602,27 @@ https://raw.githubusercontent.com/Suyu6/sub/master/rules/Unlock.qxrewrite, tag=�
 https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Guding.sgmodule, tag=「合集2」VIP解锁, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/yqc007/QuantumultX/master/LightBeautyCamCrack.js, tag=「轻颜相机5.2.1」VIP解锁, update-interval=86400, opt-parser=true, enabled=true
 # 功能增强
-https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf, tag=「京东|淘宝」比价脚本, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/mw418/Loon/main/script/jd_price.js, tag=「京东」比价脚本, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Netflix_ratings.conf, tag=「Netflix」评分, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/zZPiglet/Task/master/zhihu.conf, tag=「知乎」不跳转, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.conf, tag=「微信」链接助手, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/DualSubs/Universal/main/modules/DualSubs.Universal.snippet, tag=「流媒体平台」字幕增强及双语模块, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/DualSubs/YouTube/main/modules/DualSubs.YouTube.snippet, tag=「YouTube」字幕增强及双语模块, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/DualSubs/Spotify/main/modules/DualSubs.Spotify.snippet, tag=「Spotify」歌词增强及双语模块, update-interval=86400, opt-parser=false, enabled=true
-https://github.com/NSRingo/WeatherKit/releases/latest/download/WeatherKit.snippet, tag=自定义「天气Kit」功能, update-interval=86400, opt-parser=false, enabled=true
+https://github.com/DualSubs/Universal/releases/latest/download/DualSubs.Universal.snippet, tag=「流媒体平台」字幕增强及双语模块, update-interval=86400, opt-parser=false, enabled=true
+https://github.com/DualSubs/YouTube/releases/latest/download/DualSubs.YouTube.snippet, tag=「YouTube」字幕增强及双语模块, update-interval=86400, opt-parser=false, enabled=true
+https://github.com/DualSubs/Spotify/releases/latest/download/DualSubs.Spotify.snippet, tag=「Spotify」歌词增强及双语模块, update-interval=86400, opt-parser=false, enabled=true
+https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.snippet, tag=自定义「天气Kit」功能, update-interval=86400, opt-parser=false, enabled=true
 https://github.com/NSRingo/Weather/raw/main/modules/Weather.snippet, tag=自定义「天气」功能, update-interval=86400, opt-parser=false, enabled=true
-https://github.com/NSRingo/Siri/releases/latest/download/Siri.snippet, tag=自定义「Siri与搜索」功能, update-interval=86400, opt-parser=false, enabled=true
-https://github.com/NSRingo/GeoServices/releases/latest/download/Location.snippet, tag=自定义「定位服务」功能, update-interval=86400, opt-parser=false, enabled=false
-https://github.com/NSRingo/GeoServices/releases/latest/download/Maps.snippet, tag=自定义「地图」功能, update-interval=86400, opt-parser=false, enabled=false
-https://raw.githubusercontent.com/BiliUniverse/Enhanced/main/modules/BiliBili.Enhanced.snippet, tag=自定义「哔哩哔哩粉白」主界面, update-interval=172800, opt-parser=false, enabled=true
+https://github.com/NSRingo/Siri/releases/latest/download/iRingo.Siri.snippet, tag=自定义「Siri与搜索」功能, update-interval=86400, opt-parser=false, enabled=true
+https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Location.snippet, tag=自定义「定位服务」功能, update-interval=86400, opt-parser=false, enabled=false
+https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Maps.snippet, tag=自定义「地图」功能, update-interval=86400, opt-parser=false, enabled=false
+https://github.com/BiliUniverse/Enhanced/releases/latest/download/BiliBili.Enhanced.snippet, tag=自定义「哔哩哔哩粉白」主界面, update-interval=172800, opt-parser=false, enabled=true
+
 # 去广告
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/MyBlockAds.conf, tag=「合集1」去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Suyu6/sub/master/rules/Remix.snippet, tag=「合集2」去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/cnftp.snippet, tag=「爱奇艺|芒果|腾讯视频|优酷」去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/amap.snippet, tag=「高德地图」去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/bdmap.snippet, tag=「百度地图」去广告, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/BiliUniverse/ADBlock/main/modules/BiliBili.ADBlock.snippet, tag=「哔哩哔哩粉白」去广告, update-interval=172800, opt-parser=false, enabled=true
+https://github.com/BiliUniverse/ADBlock/releases/latest/download/BiliBili.ADBlock.snippet, tag=「哔哩哔哩粉白」去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/cainiao.snippet, tag=「菜鸟裹裹」去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/cloudmusic.snippet, tag=「网易云」去广告, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rewrite/FanQieNovel.qxrewrite, tag=「番茄小说」去广告, update-interval=172800, opt-parser=false, enabled=false
