@@ -40,5 +40,5 @@ AutoEU 🇪🇺`url-test`!!GROUPID=0!!^(?!.*?(莫斯科|圣彼得堡|哈巴罗�
 AutoCA 🇨🇦`url-test`!!GROUPID=0!!.*(多伦多|加拿大).*$`http://connectivitycheck.gstatic.com`60,,30
 AutoNA 🇺🇲`fallback`[]AutoNA1 🇺🇲`[]AutoNA2 🇺🇲`http://connectivitycheck.gstatic.com`60,,30
 AutoNA1 🇺🇲`url-test`!!GROUPID=0!!.*(硅谷|西雅图|美国).*Premium.*$`http://connectivitycheck.gstatic.com`60,,30
-AutoNA2 🇺🇲`url-test`!!GROUPID=0!!^(?!.*?#P).*(硅谷|西雅图|美国).*$`http://connectivitycheck.gstatic.com`60,,30
+AutoNA2 🇺🇲`url-test`!!GROUPID=0!!^(?!.*?#Premium).*(硅谷|西雅图|美国).*$`http://connectivitycheck.gstatic.com`60,,30
 CnixNA 🇺🇲`url-test`!!GROUPID=1!!.*美国.*$`[]REJECT`http://connectivitycheck.gstatic.com`60,,30
