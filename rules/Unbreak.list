@@ -154,7 +154,7 @@ DOMAIN-SUFFIX,fromsoftware-game.net
 # > LULU 要求的
 DOMAIN-SUFFIX,cn.smartbot.ws
 DOMAIN-SUFFIX,cnproxy.smartbot.ws
-#  > 佩奇 要求的
+# > 佩奇 要求的
 DOMAIN-SUFFIX,zlonggame.com
-
-DOMAIN-SUFFIX,suyuhome.ddns.net
+# > NO-IP获取IP
+DOMAIN-SUFFIX,dynupdate.no-ip.com
