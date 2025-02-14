@@ -384,7 +384,7 @@ https://kelee.one/Tool/Loon/Plugin/Douyu_remove_ads.plugin, tag=「斗鱼」去�
 https://kelee.one/Tool/Loon/Plugin/Daily_remove_ads.plugin, tag=「剑网3推栏」去广告, enabled = false
 https://kelee.one/Tool/Loon/Plugin/FenBi_remove_ads.plugin, tag=「粉笔」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/FlyerTea_remove_ads.plugin, tag=「飞客茶馆」去广告, enabled = true
-https://kelee.one/Tool/Loon/Plugin/DragonRead_remove_ads.plugin, tag=「番茄小说」去广告, enabled = false
+https://kelee.one/Tool/Loon/Plugin/DragonRead_remove_ads.plugin, tag=「番茄小说」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/Himalaya_remove_ads.plugin, tag=「喜马拉雅」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/IThome_remove_ads.plugin, tag=「IThome」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/Keep_remove_ads.plugin, tag=「Keep」去广告, enabled = true
