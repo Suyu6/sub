@@ -1,15 +1,12 @@
 {% if request.target == "clash" or request.target == "clashr" %}
 
-port: {{ default(global.clash.http_port, "7890") }}
-socks-port: {{ default(global.clash.socks_port, "7891") }}
+mixed-port: {{ default(global.clash.http_port, "7890") }}
 allow-lan: {{ default(global.clash.allow_lan, "true") }}
-mode: Rule
+mode: rule
 log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: :9090
 experimental:
   ignore-resolve-fail: true
-clash-for-android:
-  ui-subtitle-pattern: '[一-龥]{2,4}'
 {% if exists("request.tun") %}
   {% if request.tun == "windows" %}
 script:
@@ -25,16 +22,18 @@ script:
     Mail: dst_port in [465, 993, 995] and geoip(dst_ip) != 'CN'
 tun:
   enable: true
-  stack: gvisor
+  stack: mixed
   dns-hijack:
     - any:53
   auto-route: true
   auto-detect-interface: true
   {% else %}
     {% if request.tun == "open" %}
+clash-for-android:
+  ui-subtitle-pattern: '[一-龥]{2,4}'
 tun:
   enable: true
-  stack: system
+  stack: mixed
   dns-hijack:
     - tcp://any:53
   auto-route: false
@@ -60,6 +59,30 @@ tun:
   {% endif %}
 {% endif %}
 
+listeners:
+- name: mixed-in
+  type: mixed
+  port: 8848
+  listen: 0.0.0.0
+  udp: true
+  users:
+    - username: caesar
+      password: 9GP35MZ48B2AEW
+- name: ss-2022-in
+  type: shadowsocks
+  port: 8888
+  listen: 0.0.0.0
+  cipher: 2022-blake3-aes-128-gcm
+  password: ebhPeDlnQ+ZlLBhaWzptVA==
+  udp: true
+- name: ss-in
+  type: shadowsocks
+  port: 8889
+  listen: 0.0.0.0
+  cipher: rc4-md5
+  password: 9GP35MZ48B2AEW
+  udp: true
+
 {% if exists("request.dns") %}
   {% if request.dns == "fake" %}
 dns:
@@ -68,6 +91,7 @@ dns:
   enhanced-mode: fake-ip
   listen: 1053
   nameserver:
+    - system
     - 119.29.29.29
     - 223.5.5.5
   fallback:
@@ -81,6 +105,7 @@ dns:
     - '+.local'
     - localhost.ptlogin2.qq.com
     - '+.nip.io'
+    - '+.market.xiaomi.com'
     ## Windows
     - dns.msftncsi.com
     - www.msftncsi.com
@@ -191,9 +216,10 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-#!date = 2025-3-16
+#!date = 2025-05-10
 # IPV6 启动与否
-ipv6 = false
+ip-mode = ipv4-only
+ipv6-vif = off
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
 dns-server = system, 119.29.29.29, 223.5.5.5
 # DNS over HTTPS服务器，用,隔开多个服务器
@@ -357,6 +383,8 @@ FREE=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master
 [Rewrite]
 
 [Host]
+# 改善 App Store下载速度
+iosapps.itunes.apple.com = iosapps.itunes.apple.com.download.ks-cdn.com
 
 [Script]
 
