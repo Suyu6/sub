@@ -405,7 +405,6 @@ https://github.com/BiliUniverse/Enhanced/releases/latest/download/BiliBili.Enhan
 https://github.com/BiliUniverse/Global/releases/latest/download/BiliBili.Global.plugin, tag=自动化「哔哩哔哩粉白」线路及全区搜索, enabled = true
 https://github.com/BiliUniverse/Redirect/releases/latest/download/BiliBili.Redirect.plugin, tag=重定向「哔哩哔哩」线路, enabled = true
 https://github.com/DualSubs/Universal/releases/latest/download/DualSubs.Universal.plugin, tag=「流媒体平台」字幕增强及双语模块, enabled = true
-https://github.com/DualSubs/YouTube/releases/latest/download/DualSubs.YouTube.plugin, tag=「YouTube」字幕增强及双语模块, enabled = true
 https://github.com/DualSubs/Spotify/releases/latest/download/DualSubs.Spotify.plugin, tag=「Spotify」歌词增强及双语模块, enabled = true
 https://kelee.one/Tool/Loon/Plugin/Google.plugin, tag=「Google」重定向, enabled = false
 https://kelee.one/Tool/Loon/Plugin/Block_HTTPDNS.plugin, tag=「HTTPDNS」禁止, enabled = true
@@ -468,15 +467,16 @@ https://kelee.one/Tool/Loon/Plugin/Soul_remove_ads.plugin, tag=「Soul」去广�
 https://kelee.one/Tool/Loon/Plugin/PinDuoDuo_remove_ads.plugin, tag=「拼多多」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/XiaoHeiHe_remove_ads.plugin, tag=「小黑盒」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/FleaMarket_remove_ads.plugin, tag=「咸鱼」去广告, enabled = true
-https://kelee.one/Tool/Loon/Plugin/YouTube_remove_ads.plugin, tag=「YouTube」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/YY_Voice_remove_ads.plugin, tag=「YY」去广告, enabled = true
 https://kelee.one/Tool/Loon/Plugin/Zhihu_remove_ads.plugin, tag=「知乎」去广告, enabled = true
 # 视频网站
+https://kelee.one/Tool/Loon/Plugin/YouTube_remove_ads.plugin, tag=「YouTube」去广告, enabled = true
+https://github.com/DualSubs/YouTube/releases/latest/download/DualSubs.YouTube.plugin, tag=「YouTube」字幕增强及双语模块, enabled = true
 https://github.com/BiliUniverse/ADBlock/releases/latest/download/BiliBili.ADBlock.plugin, tag=「哔哩哔哩粉白」去广告, enabled = true
-https://kelee.one/Tool/Loon/Plugin/iQiYi_Video_remove_ads.plugin, tag=「爱奇艺」去广告, enabled = false
-https://kelee.one/Tool/Loon/Plugin/Tencent_Video_remove_ads.plugin, tag=「腾讯视频」去广告, enabled = false
-https://kelee.one/Tool/Loon/Plugin/MangoTV_remove_ads.plugin, tag=「芒果」去广告, enabled = false
-https://kelee.one/Tool/Loon/Plugin/YouKu_Video_remove_ads.plugin, tag=「优酷」去广告, enabled = false
+https://kelee.one/Tool/Loon/Plugin/iQiYi_Video_remove_ads.plugin, tag=「爱奇艺」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/Tencent_Video_remove_ads.plugin, tag=「腾讯视频」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/MangoTV_remove_ads.plugin, tag=「芒果」去广告, enabled = true
+https://kelee.one/Tool/Loon/Plugin/YouKu_Video_remove_ads.plugin, tag=「优酷」去广告, enabled = true
 # 签到
 http://script.hub/file/_start_/https://raw.githubusercontent.com/Suyu6/sub/master/rules/GetCookie.conf/_end_/GetCookie.plugin?type=qx-rewrite&target=loon-plugin, tag=「合集」签到CK一体化, enabled = true
 # 基础
