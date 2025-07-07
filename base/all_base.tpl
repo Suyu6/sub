@@ -218,7 +218,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-#!date = 2025-05-10
+#!date = 2025-07-07
 # IPV6 启动与否
 ip-mode = ipv4-only
 ipv6-vif = off
