@@ -106,6 +106,7 @@ dns:
     - localhost.ptlogin2.qq.com
     - '+.nip.io'
     - '+.market.xiaomi.com'
+    - ntp.ntsc.ac.cn
     ## Windows
     - dns.msftncsi.com
     - www.msftncsi.com
