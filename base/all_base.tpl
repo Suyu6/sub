@@ -60,14 +60,6 @@ tun:
 {% endif %}
 
 listeners:
-#- name: mixed-in
-#  type: mixed
-#  port: 8848
-#  listen: 0.0.0.0
-#  udp: true
-#  users:
-#    - username: caesar
-#      password: 9GP35MZ48B2AEW
 - name: ss-2022-in
   type: shadowsocks
   port: 8888
@@ -91,7 +83,6 @@ dns:
   enhanced-mode: fake-ip
   listen: 1053
   nameserver:
-    - system
     - 119.29.29.29
     - 223.5.5.5
   fallback:
@@ -159,6 +150,129 @@ dns:
     '+.ptrecord.com': '8.8.8.8'
     '+.bing.cn': '1.1.1.1'
     '+.bing.com': '1.1.1.1'
+    # > Modify Contents
+    'blog.google': '119.29.29.29' # Google Blog
+    'googletraveladservices.com': '119.29.29.29' # Google Flights
+    'dl.google.com': '119.29.29.29' # Google Download
+    'dl.l.google.com': '119.29.29.29' # Google Download
+    'clientservices.googleapis.com': '119.29.29.29' # Google Chrome
+    'update.googleapis.com': '119.29.29.29' # Google Update
+    'translate.googleapis.com': '119.29.29.29' # Google Translate
+    'fonts.googleapis.com': '119.29.29.29' # Google Fonts
+    'fonts.gstatic.com': '119.29.29.29' # Google Fonts
+
+    # > Apple
+    # refer: https://support.apple.com/zh-cn/HT210060
+    'networking.apple': 'https://doh.dns.apple.com/dns-query' # Apple
+    '+.icloud.com': 'https://doh.dns.apple.com/dns-query' # iCloud.com
+
+    # > 百度
+    # refer: https://dudns.baidu.com/support/localdns/Address/index.html
+    '+.baidu': '180.76.76.76' # 百度
+    '+.baidu.com': '180.76.76.76' # 百度
+    '+.bdimg.com': '180.76.76.76' # 百度 静态资源
+    '+.bdstatic.com': '180.76.76.76' # 百度 静态资源
+    '+.baidupcs.*': '180.76.76.76' # 百度网盘
+    '+.baiduyuncdn.*': '180.76.76.76' # 百度云CDN
+    '+.baiduyundns.*': '180.76.76.76' # 百度云DNS
+    '+.bdydns.*': '180.76.76.76' # 百度云 DNS
+    '+.bdycdn.*': '180.76.76.76' # 百度云 CDN
+    '+.bdysite.com': '180.76.76.76' # 百度云 域名
+    '+.bdysites.com': '180.76.76.76' # 百度云 域名
+    '+.baidubce.*': '180.76.76.76' # 百度智能云
+    '+.bcedns.*': '180.76.76.76' # 百度智能云 DNS
+    '+.bcebos.com': '180.76.76.76' # 百度智能云 对象存储BOS
+    '+.bcevod.com': '180.76.76.76' # 百度智能云 播放器服务
+    '+.bceimg.com': '180.76.76.76' # 百度智能云 图片服务
+    '+.bcehost.com': '180.76.76.76' # 百度智能云 主机
+    '+.bcehosts.com': '180.76.76.76' # 百度智能云 主机
+    'dwz.cn': '180.76.76.76' # 百度短网址
+
+    # > 360
+    # refer: https://sdns.360.net/dnsPublic.html#course
+    '+.360.cn': 'https://doh.360.cn/dns-query' # 360安全中心
+    '+.360safe.com': 'https://doh.360.cn/dns-query' # 360安全卫士
+    '+.360kuai.com': 'https://doh.360.cn/dns-query' # 360快资讯
+    '+.so.com': 'https://doh.360.cn/dns-query' # 360搜索
+    '+.360webcache.com': 'https://doh.360.cn/dns-query' # 360网页快照服务
+    '+.qihuapi.com': 'https://doh.360.cn/dns-query' # 奇虎api
+    '+.qhimg.com': 'https://doh.360.cn/dns-query' # 360图床
+    '+.qhimgs.com': 'https://doh.360.cn/dns-query' # 360图床
+    '+.qhimgs?.com': 'https://doh.360.cn/dns-query' # 360图床
+    '+.qhmsg.com': 'https://doh.360.cn/dns-query' # 360
+    '+.qhres.com': 'https://doh.360.cn/dns-query' # 奇虎静态资源
+    '+.qhres?.com': 'https://doh.360.cn/dns-query' # 奇虎静态资源
+    '+.dhrest.com': 'https://doh.360.cn/dns-query' # 导航静态文件
+    '+.qhupdate.com': 'https://doh.360.cn/dns-query' # 360
+    '+.yunpan.cn': 'https://doh.360.cn/dns-query' # 360安全云盘
+    '+.yunpan.com.cn': 'https://doh.360.cn/dns-query' # 360安全云盘
+    '+.yunpan.com': 'https://doh.360.cn/dns-query' # 360安全云盘
+    'urlqh.cn': 'https://doh.360.cn/dns-query' # 360短网址
+
+    # > Bytedance
+    # refer: https://www.volcengine.com/docs/6758/179060
+    '+.amemv.com': '180.184.1.1' # 艾特迷
+    '+.bdxiguaimg.com': '180.184.1.1' # 西瓜 图片服务
+    '+.bdxiguastatic.com': '180.184.1.1' # 西瓜 静态资源
+    '+.byted-static.com': '180.184.1.1' # 字节跳动 UNPKG
+    '+.bytedance.*': '180.184.1.1' # 字节跳动
+    '+.bytedns.net': '180.184.1.1' # 字节跳动 DNS
+    '+.bytednsdoc.com': '180.184.1.1' # 字节跳动 CDN 文件存储
+    '+.bytegoofy.com': '180.184.1.1' # 字节跳动 Goofy
+    '+.byteimg.com': '180.184.1.1' # 字节跳动 图片服务
+    '+.bytescm.com': '180.184.1.1' # 字节跳动 SCM
+    '+.bytetos.com': '180.184.1.1' # 字节跳动 TOS
+    '+.bytexservice.com': '180.184.1.1' # 飞书企业服务平台
+    '+.douyin.com': '180.184.1.1' # 抖音
+    '+.douyinpic.com': '180.184.1.1' # 抖音 静态资源
+    '+.douyinstatic.com': '180.184.1.1' # 抖音 静态资源
+    '+.douyinvod.com': '180.184.1.1' # 抖音 静态资源
+    '+.feelgood.cn': '180.184.1.1' # FeelGood平台
+    '+.feiliao.com': '180.184.1.1' # 飞聊官网
+    '+.gifshow.com': '180.184.1.1' # 快手
+    '+.huoshan.com': '180.184.1.1' # 火山网
+    '+.huoshanzhibo.com': '180.184.1.1' # 火山直播
+    '+.ibytedapm.com': '180.184.1.1' # 抖音 dapm
+    '+.iesdouyin.com': '180.184.1.1' # 抖音 CDN
+    '+.ixigua.com': '180.184.1.1' # 西瓜视频
+    '+.kspkg.com': '180.184.1.1' # 快手
+    '+.pstatp.com': '180.184.1.1' # 抖音 静态资源
+    '+.snssdk.com': '180.184.1.1' # 今日头条
+    '+.toutiao.com': '180.184.1.1' # 今日头条
+    '+.toutiao13.com': '180.184.1.1' # 今日头条
+    '+.toutiao???.???': '180.184.1.1' # 今日头条 静态资源
+    '+.toutiaocloud.cn': '180.184.1.1' # 头条云
+    '+.toutiaocloud.com': '180.184.1.1' # 头条云
+    '+.toutiaopage.com': '180.184.1.1' # 今日头条 建站
+    '+.wukong.com': '180.184.1.1' # 悟空
+    '+.zijieapi.com': '180.184.1.1' # 字节跳动 API
+    '+.zijieimg.com': '180.184.1.1' # 字节跳动 图片服务
+    '+.zjbyte.com': '180.184.1.1' # 今日头条 网页版
+    '+.zjcdn.com': '180.184.1.1' # 字节跳动 CDN
+
+    # > BiliBili
+    'upos-sz-mirrorali.bilivideo.com': 'https://dns.alidns.com/dns-query' # BiliBili upos视频服务器（阿里云）
+    'upos-sz-mirrorali?.bilivideo.com': 'https://dns.alidns.com/dns-query' # BiliBili upos视频服务器（阿里云）
+    'upos-sz-mirrorali??.bilivideo.com': 'https://dns.alidns.com/dns-query' # BiliBili upos视频服务器（阿里云）
+    'upos-sz-mirrorbos.bilivideo.com': '180.76.76.76' # BiliBili upos视频服务器（百度云）
+    'upos-sz-mirrorcos.bilivideo.com': 'https://doh.pub/dns-query' # BiliBili upos视频服务器（腾讯云）
+    'upos-sz-mirrorcos?.bilivideo.com': 'https://doh.pub/dns-query' # BiliBili upos视频服务器（腾讯云）
+    'upos-sz-mirrorcos??.bilivideo.com': 'https://doh.pub/dns-query' # BiliBili upos视频服务器（腾讯云）
+    'upos-sz-upcdnbd??.bilivideo.com': '180.76.76.76' # BiliBili upos视频服务器（百度云）
+    'upos-sz-upcdntx.bilivideo.com': 'https://doh.pub/dns-query' # BiliBili upos视频服务器（腾讯云）
+
+    # > 🇹🇼 TWN
+    # 中华电信
+    '+.cht.com.tw': 'https://dns.hinet.net/dns-query' # 中华电信
+    '+.hinet.net': 'https://dns.hinet.net/dns-query' # 中华电信HiNet
+    '+.emome.net': 'https://dns.hinet.net/dns-query' # 中华电信emome
+    # So-net
+    '+.tw': 'https://dns.twnic.tw/dns-query' # TWNIC DNS
+    '+.taipei': 'https://dns.twnic.tw/dns-query' # TWNIC DNS
+
+    # > 🇺🇸 USA
+    # Hurricane Electric
+    '+.he.net': 'https://ordns.he.net/dns-query' # HE.net
   {% else %}
     {% if request.dns == "host" %}
 dns:
@@ -219,12 +333,12 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-#!date = 2025-07-07
+#!date = 2025-07-26
 # IPV6 启动与否
 ip-mode = ipv4-only
 ipv6-vif = off
 # udp 类的 dns 服务器，用,隔开多个服务器，system 表示系统 dns
-dns-server = system, 119.29.29.29, 223.5.5.5
+dns-server = system, 119.29.29.29, 223.5.5.5, 192.168.3.1
 # DNS over HTTPS服务器，用,隔开多个服务器
 # doh-server = https://223.5.5.5/resolve, https://sm2.doh.pub/dns-query
 # 当 UDP 的流量规则匹配到相关节点，但该节点不支持 UDP 或未未开启 UDP 转发时使用的策略，可选 DIRECT、REJECT
@@ -233,8 +347,8 @@ udp-fallback-mode = DIRECT
 domain-reject-mode = DNS
 # 在 DNS 阶段拒绝域名时采用的方式
 dns-reject-mode = LoopbackIP
-# 是否开启局域网代理访问
-allow-wifi-access = false
+# 是否开启局域网代理访问(其他 IOS 手机连接的时候需要再 HTTP 代理里面去设置)
+allow-wifi-access = true
 # 开启局域网访问后的 http 代理端口
 wifi-access-http-port = 7892
 # 开启局域网访问后的 socks5 代理端口
@@ -399,8 +513,9 @@ https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule, 
 # 解锁
 http://script.hub/file/_start_/https://raw.githubusercontent.com/Suyu6/sub/master/rules/Unlock.qxrewrite/_end_/Unlock.plugin?type=qx-rewrite&target=loon-plugin, tag=「合集1」会员破解, enabled = true
 http://script.hub/file/_start_/https://raw.githubusercontent.com/yqc007/QuantumultX/master/LightBeautyCamCrack.js/_end_/LightBeautyCamCrack.plugin?type=qx-rewrite&target=loon-plugin, tag=「轻颜相机5.2.1」会员破解, enabled = false
-https://raw.githubusercontent.com/Keywos/rule/main/loon/TikTok.plugin, policy = GlobalMedia, tag=「TikTok」解锁区域, enabled = true
+https://raw.githubusercontent.com/Keywos/rule/main/loon/TikTok.plugin, policy = GlobalMedia, tag=「TikTok」解锁区域, enabled = false
 https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin, tag=「Spotify」解锁, enabled = true
+https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Polarr.js, tag=「泼辣修图」解锁, enabled = true
 # 功能增强
 https://github.com/BiliUniverse/Enhanced/releases/latest/download/BiliBili.Enhanced.plugin, tag=自定义「哔哩哔哩粉白」主界面, enabled = true
 https://github.com/BiliUniverse/Global/releases/latest/download/BiliBili.Global.plugin, tag=自动化「哔哩哔哩粉白」线路及全区搜索, enabled = true
@@ -484,7 +599,6 @@ http://script.hub/file/_start_/https://raw.githubusercontent.com/Suyu6/sub/maste
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.loon.plugin, policy = B1gProxy, tag = BoxJS, enabled = true
 https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/Loon.plugin, policy = B1gProxy, tag = SubStore, enabled = true
 https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-hub.loon.plugin, policy = B1gProxy, tag = ScriptHub, enabled = true
-
 
 [MITM]
 hostname = 
