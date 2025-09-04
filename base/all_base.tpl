@@ -333,7 +333,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 {% if request.target == "loon" %}
 
 [General]
-#!date = 2025-07-26
+#!date = 2025-09-04
 # IPV6 启动与否
 ip-mode = ipv4-only
 ipv6-vif = off
@@ -545,6 +545,7 @@ https://raw.githubusercontent.com/RuCu6/Loon/main/Plugins/myblockads.plugin, tag
 https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx, tag=「合集3」去广告, enabled = true
 https://kelee.one/Tool/Loon/Lpx/Remove_ads_by_keli.lpx, tag=「合集4」去广告, enabled = true
 # 去广告单独
+https://kelee.one/Tool/Loon/Lpx/12306_remove_ads.lpx, tag=「12306」去广告, enabled = true
 https://kelee.one/Tool/Loon/Lpx/Aiinquiry_remove_ads.lpx, tag=「爱企查」去广告, enabled = true
 https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx, tag=「高德地图」去广告, enabled = true
 https://kelee.one/Tool/Loon/Lpx/Baidu_input_method_remove_ads.lpx, tag=「百度输入法」去广告, enabled = true
@@ -582,6 +583,7 @@ https://kelee.one/Tool/Loon/Lpx/Snowball_remove_ads.lpx, tag=「雪球」去广�
 https://kelee.one/Tool/Loon/Lpx/Soul_remove_ads.lpx, tag=「Soul」去广告, enabled = true
 https://kelee.one/Tool/Loon/Lpx/PinDuoDuo_remove_ads.lpx, tag=「拼多多」去广告, enabled = true
 https://kelee.one/Tool/Loon/Lpx/XiaoHeiHe_remove_ads.lpx, tag=「小黑盒」去广告, enabled = true
+https://kelee.one/Tool/Loon/Lpx/XiaomiSpeaker_remove_ads.lpx, tag=「小米音响」去广告, enabled = true
 https://kelee.one/Tool/Loon/Lpx/FleaMarket_remove_ads.lpx, tag=「咸鱼」去广告, enabled = true
 https://kelee.one/Tool/Loon/Lpx/YY_Voice_remove_ads.lpx, tag=「YY」去广告, enabled = true
 https://kelee.one/Tool/Loon/Lpx/Zhihu_remove_ads.lpx, tag=「知乎」去广告, enabled = true
