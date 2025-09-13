@@ -150,6 +150,7 @@ dns:
     '+.ptrecord.com': '8.8.8.8'
     '+.bing.cn': '1.1.1.1'
     '+.bing.com': '1.1.1.1'
+
     # > Modify Contents
     'blog.google': '119.29.29.29' # Google Blog
     'googletraveladservices.com': '119.29.29.29' # Google Flights
@@ -560,7 +561,7 @@ https://kelee.one/Tool/Loon/Lpx/HKDouYin_remove_ads.lpx, tag=「香港抖音」�
 https://kelee.one/Tool/Loon/Lpx/FenBi_remove_ads.lpx, tag=「粉笔」去广告, enabled = true
 https://kelee.one/Tool/Loon/Lpx/FlyerTea_remove_ads.lpx, tag=「飞客茶馆」去广告, enabled = true
 https://kelee.one/Tool/Loon/Lpx/GaoDing_remove_ads.lpx, tag=「稿定设计」去广告, enabled = false
-https://kelee.one/Tool/Loon/Lpx/DragonRead_remove_ads.lpx, tag=「番茄小说」去广告, enabled = false
+https://kelee.one/Tool/Loon/Lpx/DragonRead_remove_ads.lpx, tag=「番茄小说」去广告, enabled = true
 https://kelee.one/Tool/Loon/Lpx/Himalaya_remove_ads.lpx, tag=「喜马拉雅」去广告, enabled = true
 https://kelee.one/Tool/Loon/Lpx/IThome_remove_ads.lpx, tag=「IThome」去广告, enabled = true
 https://kelee.one/Tool/Loon/Lpx/Keep_remove_ads.lpx, tag=「Keep」去广告, enabled = true
