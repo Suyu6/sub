@@ -164,3 +164,6 @@ DOMAIN-SUFFIX,zlonggame.com
 # > NO-IP获取IP
 DOMAIN-SUFFIX,dynupdate.no-ip.com
 DOMAIN-SUFFIX,suyuhome.ddns.net
+#  > 烈火软件
+DOMAIN-KEYWORD,apphot
+
