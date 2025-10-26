@@ -530,9 +530,10 @@ https://kelee.one/Tool/Loon/Lpx/Fileball_mount.lpx, tag=「Fileball」挂载增�
 https://kelee.one/Tool/Loon/Lpx/JD_Price.lpx, tag=「京东」比价脚本, enabled = true
 https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.plugin, tag=自定义「天气Kit」功能, enabled = true
 https://github.com/NSRingo/Weather/raw/main/modules/Weather.plugin, tag=自定义「天气」功能, enabled = true
-https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Location.plugin, tag=自定义「定位服务」功能, enabled = true
-https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Maps.plugin, tag=自定义「地图」功能, enabled = true
-https://github.com/NSRingo/Siri/releases/latest/download/iRingo.Siri.plugin, tag=自定义「Siri与搜索」功能, enabled = true
+https://github.com/NSRingo/LocationService/releases/latest/download/iRingo.LocationService.plugin, tag=自定义「定位服务」功能, enabled = true
+https://github.com/NSRingo/Maps/releases/latest/download/iRingo.Maps.plugin, tag=自定义「地图」功能, enabled = true
+https://github.com/NSRingo/Siri/releases/latest/download/iRingo.Siri.plugin, tag=自定义「Siri」功能, enabled = true
+https://github.com/NSRingo/Siri/releases/latest/download/iRingo.Search.plugin, tag=自定义「聚焦搜索」功能, enabled = true
 https://github.com/NSRingo/TV/releases/latest/download/iRingo.TV.plugin, tag=自定义「AppleTV」功能, enabled = true
 https://github.com/NSRingo/News/releases/latest/download/iRingo.News.plugin, policy = AutoNA 🇺🇲, tag=自定义「AppleNews」功能, enabled = true
 https://github.com/NSRingo/TestFlight/releases/latest/download/iRingo.TestFlight.plugin, tag=自定义「TestFlight」功能, enabled = true
