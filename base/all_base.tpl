@@ -536,7 +536,7 @@ https://github.com/NSRingo/Siri/releases/latest/download/iRingo.Siri.plugin, tag
 https://github.com/NSRingo/Siri/releases/latest/download/iRingo.Search.plugin, tag=自定义「聚焦搜索」功能, enabled = true
 https://github.com/NSRingo/TV/releases/latest/download/iRingo.TV.plugin, tag=自定义「AppleTV」功能, enabled = true
 https://github.com/NSRingo/News/releases/latest/download/iRingo.News.plugin, policy = AutoNA 🇺🇲, tag=自定义「AppleNews」功能, enabled = true
-https://github.com/NSRingo/TestFlight/releases/latest/download/iRingo.TestFlight.plugin, tag=自定义「TestFlight」功能, enabled = true
+https://github.com/NSRingo/TestFlight/releases/latest/download/iRingo.TestFlight.plugin, tag=自定义「TestFlight」功能, enabled = false
 https://kelee.one/Tool/Loon/Lpx/QuickSearch.lpx, tag=「QuickSearch」增强, enabled = false
 https://kelee.one/Tool/Loon/Lpx/Node_detection_tool.lpx, tag=「节点」检测, enabled = true
 https://kelee.one/Tool/Loon/Lpx/WARP_Node_Query.lpx, tag=「WARP」节点查询, enabled = false
