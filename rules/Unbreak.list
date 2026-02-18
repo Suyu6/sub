@@ -131,6 +131,17 @@ DOMAIN-SUFFIX,uapvql.xyz
 DOMAIN-SUFFIX,primehelix.co
 DOMAIN-SUFFIX,kineticbloom.org
 DOMAIN-SUFFIX,nxonearth.com
+# > CNIX
+DOMAIN-SUFFIX,6isthe6.org
+DOMAIN-SUFFIX,aisafushi.org
+DOMAIN-SUFFIX,aisthegroupa.org
+DOMAIN-SUFFIX,bsxis.org
+DOMAIN-SUFFIX,ctg.wtf
+DOMAIN-SUFFIX,ctemanufushi.org
+DOMAIN-SUFFIX,edg.wtf
+DOMAIN-SUFFIX,fjk.wtf
+DOMAIN-SUFFIX,fualta.org
+DOMAIN-SUFFIX,forentier.org
 # > 卡盟
 DOMAIN-SUFFIX,8848.kim
 DOMAIN-SUFFIX,xiandao02.com
@@ -157,12 +168,11 @@ DOMAIN-SUFFIX,fromsoftware-game.net
 # > LULU 要求的
 DOMAIN-SUFFIX,cn.smartbot.ws
 DOMAIN-SUFFIX,cnproxy.smartbot.ws
-# > 佩奇 要求的
+#  > 佩奇 要求的
 DOMAIN-SUFFIX,zlonggame.com
-# > NO-IP获取IP
+#  > suyu 要求的
 DOMAIN-SUFFIX,dynupdate.no-ip.com
 DOMAIN-SUFFIX,ddns.net
-DOMAIN-SUFFIX,suyuhome.ddns.net
 #  > 烈火软件
 DOMAIN-KEYWORD,apphot
 #  > 花之湾大路站
