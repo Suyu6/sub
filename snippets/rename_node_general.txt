@@ -205,5 +205,6 @@ Zhipinshang .* Electron Communication Technology Limited@Zhipinshang
 
 IPVζ@IPV6
 IPVδ@IPV4
+Level γ@Level 3
   @ 
 \(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
