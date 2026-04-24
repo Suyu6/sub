@@ -791,6 +791,7 @@ https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/c
 https://raw.githubusercontent.com/Suyu6/sub/master/rules/GetCookie.conf, tag = 「合集1」CK获取, update-interval=172800, opt-parser=true, enabled = true
 
 # 功能增强
+https://raw.githubusercontent.com/DemoJameson/Loon.Plugins/main/trakt_simplified_chinese/trakt_simplified_chinese.snippet, tag=「trakt」增强, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/mw418/Loon/main/script/jd_price.js, tag=「京东」比价脚本, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Netflix_ratings.conf, tag=「Netflix」评分, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/zZPiglet/Task/master/zhihu.conf, tag=「知乎」不跳转, update-interval=86400, opt-parser=false, enabled=true
