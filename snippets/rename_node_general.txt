@@ -81,7 +81,7 @@ Korbank S. A.@Korbank
 Lanka Communication Services@LCS
 Liberty Global B.V.@Liberty
 LLC Baxet@LLC
-Level 3 Parent@LevelIII
+Level 3 Parent, LLC@Level 3
 M247 Europe SRL@M247
 Maintenance of Network & information Technology Company LLC@Maintenance
 Makedonski Telekom AD-Skopje@MT
@@ -148,6 +148,7 @@ Tokyo Online Co.,Ltd.@TOC
 Tomattos Technologies Ltd.@Tomattos
 Truxgo S. R.L. de C.V.@Truxgo
 Two Degrees Networks Limited@TDN
+Tencent Building, Kejizhongyi Avenue@Tencent
 UAB Baltnetos komunikacijos@UAB
 UAB Bite Lietuva@UAB
 UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED@UCLOUD
