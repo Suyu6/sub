@@ -370,7 +370,7 @@ disconnect-on-policy-change = true
 # 一个节点连接失败几次后会进行节点切换，默认 3 次
 switch-node-after-failure-times = 3
 # 订阅资源解析器链接
-resource-parser = resource-parser = https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-parser.loon.min.js
+resource-parser = https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-parser.loon.min.js
 # 自定义 geoip 数据库的 url
 geoip-url = https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.mmdb
 ipasn-url = https://geodata.kelee.one/GeoLite2-ASN-P3TERX.mmdb
