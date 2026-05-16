@@ -384,7 +384,7 @@ bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/
 ssid-trigger = "Cccccc":PROXY,"Cccccc_5G":PROXY,"cellular":RULE,"default":RULE
   {% else %}
    {% if request.who == "Suyu" %}
-ssid-trigger = "LEI":PROXY,"LEI5":PROXY,"cellular":RULE,"default":RULE
+ssid-trigger = "桃桃桃的家":PROXY,"桃桃桃的家-5":PROXY,"cellular":RULE,"default":RULE
    {% else %}
 ssid-trigger = "INFINITY-WORLD":DIRECT,"nana":DIRECT,"cellular":RULE,"default":RULE
    {% endif %}
@@ -705,7 +705,7 @@ geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubuserc
 running_mode_trigger=filter, filter, Cccccc:all_proxy, zxcvawer:all_proxy, Cccccc_5G:all_proxy
   {% else %}
     {% if request.who == "Suyu" %}
-running_mode_trigger=filter, filter, LEI5:all_proxy, LEI:all_proxy
+running_mode_trigger=filter, filter, 桃桃桃的家:all_proxy, 桃桃桃的家-5:all_proxy
     {% else %}
 running_mode_trigger=filter, filter, INFINITY-WORLD:all_direct, nana:all_direct
     {% endif %}
