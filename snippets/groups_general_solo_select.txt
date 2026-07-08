@@ -7,10 +7,10 @@ Discord`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]Au
 Telegram`select`[]B1gProxy`[]AutoSG 🇸🇬`[]AutoNA 🇺🇲
 Spotify`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT
 Netflix`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT`.*Emby.*$
-GlobalMedia`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT
+GlobalMedia`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]MajorHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT
 Microsoft`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]ALL`[]FREE`[]DIRECT
-SteamChina`select`[]DIRECT`[]B1gProxy`[]Other Games`[]REJECT`^.*(阿根廷|土耳其).*$
-SteamGlobal`select`[]B1gProxy`[]DIRECT`[]Other Games`[]REJECT`^.*(阿根廷|土耳其).*$
+SteamChina`select`[]DIRECT`[]B1gProxy`[]Other Games`[]ALL`[]REJECT`^.*(阿根廷|土耳其).*$
+SteamGlobal`select`[]B1gProxy`[]DIRECT`[]Other Games`[]ALL`[]REJECT`^.*(阿根廷|土耳其).*$
 Blizzard`select`[]Other Games`[]ALL`[]DIRECT
 Epicgames`select`[]Other Games`[]ALL`[]DIRECT
 PlayStation`select`[]Other Games`[]ALL`[]DIRECT
@@ -18,14 +18,14 @@ Riot`select`[]Other Games`[]ALL`[]DIRECT
 Rockstar`select`[]Other Games`[]ALL`[]DIRECT
 Ubisoft`select`[]Other Games`[]ALL`[]DIRECT
 GlobalGameDownload`select`[]B1gProxy`[]Other Games`[]ALL`[]FREE`[]DIRECT
-PrivateTracker`select`[]DIRECT`[]Other Games`[]ALL`[]FREE
+PrivateTracker`select`[]DIRECT`[]B1gProxy`[]Other Games`[]ALL`[]FREE
 SougouInput`select`[]REJECT`[]DIRECT
 Hijacking`select`[]REJECT`[]DIRECT
-ALL`select`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
+ALL`select`[]AutoHK 🇭🇰`[]MajorHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`!!GROUPID=0!!^.*(Asia|Africa|America|Europe|Oceania|Antarctica).*$
 FREE`select`^.*(ShareCentre|pcg52|mitc|Free).*$
 AutoHK 🇭🇰`select`[]MajorHK 🇭🇰`[]MinorHK 🇭🇰`http://www.gstatic.com/generate_204`60,,20
-MajorHK 🇭🇰`fallback`!!GROUPID=0!!^(?!.*?(#0|#0)).*香港.*(-|倍|率).*$`[]MinorHK 🇭🇰`[]REJECT`http://www.gstatic.com/generate_204`60,,20
-MinorHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?(-|倍|率)).*香港.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+MajorHK 🇭🇰`fallback`!!GROUPID=0!!^(?!.*?(倍|率)).*香港.*$`[]MinorHK 🇭🇰`[]REJECT`http://www.gstatic.com/generate_204`60,,20
+MinorHK 🇭🇰`url-test`!!GROUPID=0!!^(?!.*?(-|#5)).*香港.*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoTW 🇨🇳`url-test`!!GROUPID=0!!^(?!.*?(倍|率)).*(台|新竹).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoKR 🇰🇷`url-test`!!GROUPID=0!!^(?!.*?(倍|率)).*(首尔|韩国).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
 AutoJP 🇯🇵`url-test`!!GROUPID=0!!^(?!.*?(倍|率)).*(东京|日本).*$`[]REJECT`http://www.gstatic.com/generate_204`60,,20
