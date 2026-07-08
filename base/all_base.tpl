@@ -925,7 +925,7 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 # 龙湖天街  (By @leiyiyan)
 # 获取 Cookie：打开龙湖天街小程序，进入 我的 - 签到赚珑珠 - 任务赚奖励 - 马上签到。
 # gw2c-hw-open.longfor.com
-16 8 * * * https://raw.githubusercontent.com/leiyiyan/resource/main/script/lhtj/lhtj.js, tag=龙湖天街, img-url=ttps://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png, enabled=true
+16 8 * * * https://raw.githubusercontent.com/leiyiyan/resource/main/script/lhtj/lhtj.js, tag=龙湖天街, img-url=https://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png, enabled=true
 
 #奈雪点单签到 (By @Sliverkiss)
 17 8 * * * https://gist.githubusercontent.com/Sliverkiss/4d0e9572b99530b7cb0e7298622aa2a9/raw/naixue.js, tag=奈雪点单签到, enabled=true
