@@ -1,10 +1,10 @@
 Premium`fallback`!!GROUPID=0!!.*香港.*Premium.*$`[]AutoHK 🇭🇰`[]AutoJP 🇯🇵`[]AutoNA 🇺🇲`http://www.gstatic.com/generate_204`60,,20
 Other Games`select`[]B1gProxy`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]Major`[]Minor`[]FREE`[]DIRECT
 B1gProxy`select`[]Premium`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]Major`[]Minor`[]FREE`[]DIRECT`^.*倍.*$
-Hax`select`[]AutoNA 🇺🇲`[]B1gProxy`[]Other Games`[]MinorNA 🇺🇲`[]DIRECT
+Hax`select`[]AutoNA 🇺🇲`[]B1gProxy`[]Other Games`[]DIRECT
 Trading`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
 Discord`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]AutoKR 🇰🇷`[]AutoJP 🇯🇵`[]AutoSG 🇸🇬`[]AutoEU 🇪🇺`[]AutoNA 🇺🇲`[]DIRECT
-Telegram`select`[]B1gProxy`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]MinorTW 🇨🇳`[]AutoSG 🇸🇬`[]MinorSG 🇸🇬`[]AutoNA 🇺🇲
+Telegram`select`[]B1gProxy`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoSG 🇸🇬`[]MinorSG 🇸🇬`[]AutoNA 🇺🇲
 Spotify`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]MinorTW 🇨🇳`[]AutoKR 🇰🇷`[]MinorKR 🇰🇷`[]AutoJP 🇯🇵`[]MinorJP 🇯🇵`[]AutoSG 🇸🇬`[]MinorSG 🇸🇬`[]AutoAU 🇦🇺`[]MinorAU 🇦🇺`[]AutoRU 🇷🇺`[]MinorRU 🇷🇺`[]AutoEU 🇪🇺`[]MinorEU 🇪🇺`[]AutoCA 🇨🇦`[]MinorCA 🇨🇦`[]AutoNA 🇺🇲`[]MinorNA 🇺🇲`[]Major`[]Minor`[]FREE`[]DIRECT
 Netflix`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]MinorTW 🇨🇳`[]AutoKR 🇰🇷`[]MinorKR 🇰🇷`[]AutoJP 🇯🇵`[]MinorJP 🇯🇵`[]AutoSG 🇸🇬`[]MinorSG 🇸🇬`[]AutoAU 🇦🇺`[]MinorAU 🇦🇺`[]AutoRU 🇷🇺`[]MinorRU 🇷🇺`[]AutoEU 🇪🇺`[]MinorEU 🇪🇺`[]AutoCA 🇨🇦`[]MinorCA 🇨🇦`[]AutoNA 🇺🇲`[]MinorNA 🇺🇲`[]Major`[]Minor`[]FREE`[]DIRECT`.*Emby.*$
 GlobalMedia`select`[]B1gProxy`[]Other Games`[]AutoHK 🇭🇰`[]MinorHK 🇭🇰`[]AutoTW 🇨🇳`[]MinorTW 🇨🇳`[]AutoKR 🇰🇷`[]MinorKR 🇰🇷`[]AutoJP 🇯🇵`[]MinorJP 🇯🇵`[]AutoSG 🇸🇬`[]MinorSG 🇸🇬`[]AutoAU 🇦🇺`[]MinorAU 🇦🇺`[]AutoRU 🇷🇺`[]MinorRU 🇷🇺`[]AutoEU 🇪🇺`[]MinorEU 🇪🇺`[]AutoCA 🇨🇦`[]MinorCA 🇨🇦`[]AutoNA 🇺🇲`[]MinorNA 🇺🇲`[]Major`[]Minor`[]FREE`[]DIRECT
