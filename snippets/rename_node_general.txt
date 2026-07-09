@@ -35,6 +35,7 @@ Cyberzone S.A.@Cyberzone
 Daniel Jackson@Daniel
 Data Communication Business Group@HiNet
 Datacamp Limited@Datacamp
+DDPS Networks, LLC@Datacamp
 Datacheap LLC@Datacheap
 DEDIOUTLET-NETWORK-PHX@DEDIOUTLET
 Delta Telecom Ltd@Delta
@@ -66,6 +67,8 @@ HGC Global Communications Limited@HKG
 HK Cable TV Ltd@HKCT
 Hohl IT e.U.@Hohl
 Hong Kong Broadband Network Ltd.@HKBN
+Hangzhou Alibaba Advertising Co.,Ltd.@Alibaba
+HostHatch, LLC@Alibaba
 IM Level η SRL@IM
 Internet Initiative Japan Inc.@IIJ
 ISPIXP IN CAMBODIA WITH THE BEST VERVICE IN THERE.@CAMBODIA
@@ -125,6 +128,7 @@ QNAX LTDA@QNAX
 Rackforest Zrt.@Rackforest
 Real Future Company Limited@Real Future
 Sangsang Networks Co., Ltd.@Sangsang
+SAKURA LTD.@SAKURA
 Servercore-Africa-Ltd@Servercore
 Shanghai Huajuan Information Technology Co., Ltd.@Huajuan
 SIA VEESP@SIA
@@ -149,6 +153,7 @@ Tomattos Technologies Ltd.@Tomattos
 Truxgo S. R.L. de C.V.@Truxgo
 Two Degrees Networks Limited@TDN
 Tencent Building, Kejizhongyi Avenue@Tencent
+The Infrastructure Group B.V.@TIGBV
 UAB Baltnetos komunikacijos@UAB
 UAB Bite Lietuva@UAB
 UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED@UCLOUD
