@@ -1,5 +1,9 @@
 # gofile
 DOMAIN-SUFFIX,gofile.io
+# openai
+DOMAIN-SUFFIX,oaistatic.com
+# 推特
+DOMAIN-SUFFIX,twimg.com
 # riot
 DOMAIN-SUFFIX,dyn.riotcdn.net
 # Garena LOL TW download
@@ -33,12 +37,6 @@ DOMAIN-SUFFIX,ssl-lvlt.cdn.ea.com
 # EA平台 akamaihd CDN
 DOMAIN-SUFFIX,origin-a.akamaihd.net
 DOMAIN,ssl-lvlt.cdn.ea.com
-# 微软
-DOMAIN,packagespc.xboxlive.com
-DOMAIN,xvcf1.xboxlive.com
-DOMAIN,xvcf2.xboxlive.com
-DOMAIN,assets1.xboxlive.com
-DOMAIN,assets2.xboxlive.com
 # epicgames
 DOMAIN,download.epicgames.com
 DOMAIN,download2.epicgames.com
@@ -87,6 +85,14 @@ DOMAIN-SUFFIX,dotnetcli.blob.core.windows.net
 DOMAIN-SUFFIX,cdn.office.net
 # 微软应用商店
 DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+# 微软
+DOMAIN,packagespc.xboxlive.com
+DOMAIN,xvcf1.xboxlive.com
+DOMAIN,xvcf2.xboxlive.com
+DOMAIN,assets1.xboxlive.com
+DOMAIN,assets2.xboxlive.com
+# 疑似微软商店重定向 cdn (新加坡 Edgevana 网段)
+# IP-CIDR,14.102.231.0/24,no-resolve
 # Google Diver
 DOMAIN-SUFFIX,www.googleapis.com
 DOMAIN-KEYWORD,drive-data-export.googleusercontent.com
