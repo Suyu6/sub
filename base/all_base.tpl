@@ -531,15 +531,14 @@ https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx, tag=「HTTPDNS」禁止, enab
 https://kelee.one/Tool/Loon/Lpx/LoonGallery.lpx, policy = B1gProxy, enabled = false
 https://kelee.one/Tool/Loon/Lpx/Fileball_mount.lpx, tag=「Fileball」挂载增强, enabled = false
 https://kelee.one/Tool/Loon/Lpx/JD_Price.lpx, tag=「京东」比价脚本, enabled = true
-https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.plugin, tag=自定义「天气Kit」功能, enabled = true
-https://github.com/NSRingo/Weather/raw/main/modules/Weather.plugin, tag=自定义「天气」功能, enabled = true
-https://github.com/NSRingo/LocationService/releases/latest/download/iRingo.LocationService.plugin, tag=自定义「定位服务」功能, enabled = true
-https://github.com/NSRingo/Maps/releases/latest/download/iRingo.Maps.plugin, tag=自定义「地图」功能, enabled = true
-https://github.com/NSRingo/Siri/releases/latest/download/iRingo.Siri.plugin, tag=自定义「Siri」功能, enabled = true
-https://github.com/NSRingo/Siri/releases/latest/download/iRingo.Search.plugin, tag=自定义「聚焦搜索」功能, enabled = true
-https://github.com/NSRingo/TV/releases/latest/download/iRingo.TV.plugin, tag=自定义「AppleTV」功能, enabled = true
-https://github.com/NSRingo/News/releases/latest/download/iRingo.News.plugin, policy = AutoNA 🇺🇲, tag=自定义「AppleNews」功能, enabled = true
-https://github.com/NSRingo/TestFlight/releases/latest/download/iRingo.TestFlight.plugin, tag=自定义「TestFlight」功能, enabled = false
+https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.lpx, tag=iRingo「WeatherKit」, enabled=true
+https://github.com/NSRingo/Weather/raw/main/modules/Weather.plugin, tag=iRingo「天气」, enabled=true
+https://github.com/NSRingo/LocationService/releases/latest/download/iRingo.LocationService.plugin, tag=iRingo「定位服务」, enabled=true
+https://github.com/NSRingo/MapKit/releases/latest/download/iRingo.Maps.plugin, tag=iRingo「MapKit」, enabled=true
+https://github.com/NSRingo/TV/releases/latest/download/iRingo.TV.plugin, tag=iRingo「Apple TV」, enabled=true
+https://github.com/NSRingo/News/releases/latest/download/iRingo.News.plugin, policy=AutoNA 🇺🇲, tag=iRingo「Apple News」, enabled=true
+https://github.com/NSRingo/WeatherKit/raw/main/modules/iRingo.WeatherKit.Rewrite.lpx, tag=iRingo「WeatherKit-Rewrite」, enabled=true
+https://github.com/NSRingo/MapKit/raw/main/modules/iRingo.MapKit.Rewrite.lpx, tag=iRingo「MapKit-Rewrite」, enabled=true
 https://kelee.one/Tool/Loon/Lpx/QuickSearch.lpx, tag=「QuickSearch」增强, enabled = false
 https://kelee.one/Tool/Loon/Lpx/Node_detection_tool.lpx, tag=「节点」检测, enabled = true
 http://script.hub/file/_start_/https://gist.githubusercontent.com/RavelloH/68ed0626dae69a1ce7c8ad6887087ea1/raw/main.snippet/_end_/main.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=truet, tag=「reddit」翻译增强, enabled = true
@@ -802,11 +801,14 @@ https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.conf, 
 https://github.com/DualSubs/Universal/releases/latest/download/DualSubs.Universal.snippet, tag=「流媒体平台」字幕增强及双语模块, update-interval=86400, opt-parser=false, enabled=true
 https://github.com/DualSubs/YouTube/releases/latest/download/DualSubs.YouTube.snippet, tag=「YouTube」字幕增强及双语模块, update-interval=86400, opt-parser=false, enabled=true
 https://github.com/DualSubs/Spotify/releases/latest/download/DualSubs.Spotify.snippet, tag=「Spotify」歌词增强及双语模块, update-interval=86400, opt-parser=false, enabled=true
-https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.snippet, tag=自定义「天气Kit」功能, update-interval=86400, opt-parser=false, enabled=true
-https://github.com/NSRingo/Weather/raw/main/modules/Weather.snippet, tag=自定义「天气」功能, update-interval=86400, opt-parser=false, enabled=true
-https://github.com/NSRingo/Siri/releases/latest/download/iRingo.Siri.snippet, tag=自定义「Siri与搜索」功能, update-interval=86400, opt-parser=false, enabled=true
-https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Location.snippet, tag=自定义「定位服务」功能, update-interval=86400, opt-parser=false, enabled=false
-https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Maps.snippet, tag=自定义「地图」功能, update-interval=86400, opt-parser=false, enabled=false
+https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.snippet, tag=iRingo「WeatherKit」, update-interval=86400, opt-parser=false, enabled=true
+https://github.com/NSRingo/Weather/raw/main/modules/Weather.snippet, tag=iRingo「天气」, update-interval=86400, opt-parser=false, enabled=true
+https://github.com/NSRingo/LocationService/releases/latest/download/iRingo.LocationService.snippet, tag=iRingo「定位服务」, update-interval=86400, opt-parser=false, enabled=true
+https://github.com/NSRingo/MapKit/releases/latest/download/iRingo.Maps.snippet, tag=iRingo「MapKit」, update-interval=86400, opt-parser=false, enabled=true
+https://github.com/NSRingo/TV/releases/latest/download/iRingo.TV.snippet, tag=iRingo「Apple TV」, update-interval=86400, opt-parser=false, enabled=true
+https://github.com/NSRingo/News/releases/latest/download/iRingo.News.snippet, tag=iRingo「Apple News」, update-interval=86400, opt-parser=false, enabled=true
+https://github.com/NSRingo/WeatherKit/raw/main/modules/iRingo.WeatherKit.Rewrite.lpx, tag=iRingo「WeatherKit-Rewrite」, update-interval=86400, opt-parser=true, enabled=true
+https://github.com/NSRingo/MapKit/raw/main/modules/iRingo.MapKit.Rewrite.lpx, tag=iRingo「MapKit-Rewrite」, update-interval=86400, opt-parser=true, enabled=true
 https://github.com/BiliUniverse/Enhanced/releases/latest/download/BiliBili.Enhanced.snippet, tag=自定义「哔哩哔哩粉白」主界面, update-interval=172800, opt-parser=false, enabled=true
 https://gist.githubusercontent.com/RavelloH/68ed0626dae69a1ce7c8ad6887087ea1/raw/main.snippet, tag=「reddit」翻译增强, update-interval=172800, opt-parser=false, enabled=true
 
