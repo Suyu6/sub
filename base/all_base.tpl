@@ -996,6 +996,9 @@ event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hu
 #夸克网盘 (By @Sliverkiss)
 19 8 * * * https://gist.githubusercontent.com/Sliverkiss/1589f69e675019b0b685a57a89de9ea5/raw/quarkV2.js, tag=夸克网盘签到, enabled=true
 
+# 一点万象签到
+20 8 * * * https://gist.githubusercontent.com/cc166/618285773b0057c8db5b4468f5e68315/raw/newmixc.js, tag=一点万象签到, img-url=https://raw.githubusercontent.com/MaYIHEI/pin/refs/heads/main/app/newmixc.png, enabled=true
+
 [http_backend]
 
 [filter_local]
