@@ -532,6 +532,7 @@ FREE=select, direct, img-url=https://raw.githubusercontent.com/Orz-3/mini/master
 [Host]
 # 改善 App Store下载速度
 iosapps.itunes.apple.com = iosapps.itunes.apple.com.download.ks-cdn.com
+sub.store = 127.0.0.1
 
 [Script]
 
