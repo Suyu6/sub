@@ -395,8 +395,6 @@ disable-stun = false
 disconnect-on-policy-change = true
 # 一个节点连接失败几次后会进行节点切换，默认 3 次
 switch-node-after-failure-times = 3
-# 订阅资源解析器链接
-resource-parser = https://raw.githubusercontent.com/sub-store-org/Sub-Store/release/sub-store-parser.loon.min.js
 # 自定义 geoip 数据库的 url
 geoip-url = https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.mmdb
 ipasn-url = https://geodata.kelee.one/GeoLite2-ASN-P3TERX.mmdb
@@ -539,6 +537,9 @@ iosapps.itunes.apple.com = iosapps.itunes.apple.com.download.ks-cdn.com
 [Plugin]
 #跳过部分应用代理检测
 https://raw.githubusercontent.com/mieqq/mieqq/master/skip-proxy-lists.sgmodule, tag=跳过部分应用代理检测, enabled = true
+
+#资源解析器插件
+https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/Loon-parser.plugin, tag=Loon资源解析器, enabled = true
 
 # 解锁
 http://script.hub/file/_start_/https://raw.githubusercontent.com/Suyu6/sub/master/rules/Unlock.qxrewrite/_end_/Unlock.plugin?type=qx-rewrite&target=loon-plugin, tag=「合集1」会员破解, enabled = true
